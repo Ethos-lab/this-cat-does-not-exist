@@ -7,20 +7,23 @@ Real cats:
 
 <img src="showboard/real-square 4x4.jpg" width=300>
 
-Generated cats (update over time):
+Generated fake cats (update over time):
 
-<img src="showboard/18.jpg" width=300>
+<img src="showboard/15.jpg" width=300>
 
 ## Basic information
 - Device: NVIDIA GTX 1070 (8GB)
 - Number of cat Images: 9992
 
-# Image cropping and alignment
+## Image cropping and alignment
 - Use cat-gan-batch-resize-images.ipynb to crop and align cat faces
 - use aligned square image to perform training
 
-# StyleGAN2
-- 
+## StyleGAN2
+- Used pytorch version of styleGAN2 to generate cat images. 
+- 32x32 images finished
+- 128x128 in progress
+- 256x256? I do not have such GPU memory as well as time; perhaps I'll do it once I get an RTX 3090  :)) 
 
 ## Current training
 - Epochs: 18000
@@ -33,10 +36,10 @@ Generated cats (update over time):
  - dataset (please send Email to **lxgfrom2009 [at] gmail [dot] com** to get aligned cat face dataset)
 
 # References
-## Stylegan2 credit
+## Stylegan2-pytorch credit (lucidrains)
 https://github.com/lucidrains/stylegan2-pytorch/
 
-## Raw Cat dataset credit
+## Raw Cat dataset credit (Kaggle)
 https://www.kaggle.com/crawford/cat-dataset
 
 ## Research Paper
