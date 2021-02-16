@@ -9,7 +9,11 @@ Real cats:
 
 Generated fake cats (update over time):
 
-<img src="showboard/10-128x128-cr.jpg" width=300>
+<img src="showboard/13-128x128-cr.jpg" width=300>
+
+Here's the interpolated images:
+
+<img src="showboard/13-128x128-gif.gif" width=300>
 
 ## Basic information
 - Device: NVIDIA GTX 1070 (8GB)
